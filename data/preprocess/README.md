@@ -1,6 +1,7 @@
 # Process KARD data for our algorithm
 
 
+### ✅  How to run
 At first you should download dataset from link mentioned in previous parts.
 Then for running this code, you just have to change the directories which are put in some varibales like path, data_path, etc to your dataset directory.
 
