@@ -2,8 +2,8 @@
 
 
 ### ✅  How to run
-At first you should download dataset from link mentioned in previous parts.
-Then for running this code, you just have to change the directories which are put in some varibales like path, data_path, etc to your dataset directory.
+<b> At first you should download dataset from link mentioned in previous parts.
+Then for running this code, you just have to change the directories which are put in some varibales like path, data_path, etc to your dataset directory.</b>
 
 📌 We use 8 percent of data for test that is 13 and train data is 137.
 
