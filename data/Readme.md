@@ -28,3 +28,9 @@ List of actions are indicated bellow:
 16	Drink </br>
 17	Sit down </br>
 18	Stand up </br>
+
+
+### ✅  How to run
+----
+For applying model on dataset, at first we should process data in it.
+So, Open the process folder and follow the instructions.
