@@ -32,5 +32,6 @@ List of actions are indicated bellow:
 
 ### ✅  How to run
 ----
-For applying model on dataset, at first we should process data in it.
-So, Open the process folder and follow the instructions.
+For applying model on dataset, at first we should process data in it.</br>
+You can download dataset from link above or use the final data in folder dataset.</br>
+If you have downloaded KARD dataset, open the process folder and follow the instructions.</br>
