@@ -28,4 +28,4 @@ Each body points is defined in 3D coordinate system. So, x, y, z positions can b
 📌  Because data comprises some positions on the screen and also bodies are gathered from different distances from kinect camera, there is need to first scale these numbers with 4500, second normalize them and at last, merge r, g, b together.
 
 
-✔️ In dataset folder there are 3 zip files for train, test, validation which consist of processed images resulted from mentioned code.
+### ✔️ In dataset folder there are 3 zip files for train, test, validation which consist of processed images resulted from mentioned code.
