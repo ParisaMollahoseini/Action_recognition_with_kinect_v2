@@ -10,10 +10,10 @@ In this project we want to build a model to recognize 5 human actions infront of
 ### ✅  How to run
 ----
 
-Follow these steps to read folders and run the codes:
-➙ First open the data folder and follow the instructions explained on its readme file
-➙ Open create_model folder and follow the instructions to train and test model on data processed before
-➙ Finally you can open test_on_kinect folder to test your saved model on real data. 😊
+Follow these steps to read folders and run the codes:<br>
+➙ First open the data folder and follow the instructions explained on its readme file <br>
+➙ Open create_model folder and follow the instructions to train and test model on data processed before<br>
+➙ Finally you can open test_on_kinect folder to test your saved model on real data. 😊<br>
 
 
 ### 📝 Paper which is used in this project
