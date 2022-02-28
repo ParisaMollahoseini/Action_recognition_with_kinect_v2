@@ -1,24 +1,51 @@
-# Action_recognition_with_kinectv2
-Action recognition on kinect Xbox one
+# PyKinect2
 
-### ✅ Explanation
-----
+Enables writing Kinect applications, games, and experiences using Python.  Inspired by the original [PyKinect project on CodePlex](http://pytools.codeplex.com/wikipage?title=PyKinect).
 
-In this project we want to build a model to recognize 5 human actions infront of kinect device. To achieve this, first we chose a dataset named KARD, second processed it to make it useable in target model, and finally train the model.
-
-
-### ✅  How to run
-----
-
-Follow these steps to read folders and run the codes:<br>
-
-➙ First open the data folder and follow the instructions explained on its readme file. <br>
-➙ Open create_model folder and follow the instructions to train and test model on data processed before.<br>
-➙ Download and install the pykinect2 library in pykinect2 folder. <br>
-➙ Finally you can open test_on_kinect folder to test your saved model on real data. 😊<br>
+Only color, depth, body and body index frames are supported in this version. 
+PyKinectBodyGame is a sample game. It demonstrates how to use Kinect color and body frames.
 
 
-### 📝 Paper which is used in this project
-Pham, H.-H., Khoudour, L., Crouzil, A., Zegers, P., & Velastin, S. A. (2017). Learning and
-recognizing human action from skeleton movement with deep residual neural networks. 8th International
-Conference of Pattern Recognition Systems (ICPRS 2017).
+## Prerequisites
+
+The easiest way to get most of the pre-requisites is to use Anaconda which includes NumPy.  You'll then need to pip install comtypes.  The PyKinectBodyGame sample requires PyGame which needs to be manually installed.
+
+1. Download [Anaconda](https://store.continuum.io/cshop/anaconda/) get the 32-bit version.  This includes NumPy.
+2. pip install comtypes
+3. Install the [Kinect for Windows SDK v2](http://aka.ms/k4wv2sdk)
+
+Full List of Dependencies
+* [Python 2.7.x or 3.4 and higher](https://www.python.org/)  
+* [NumPy](http://www.numpy.org/) 
+* [comtypes](https://github.com/enthought/comtypes/) 
+* [Kinect for Windows SDK v2](http://aka.ms/k4wv2sdk)
+* [Kinect v2 sensor and adapter](http://aka.ms/k4wv2purchase) Note:  you can use a Kinect for Xbox One as long as you also have the Kinect Adapter for Windows
+* [PyGame](http://www.pygame.org) - for running PyKinectBodyGame sample 
+  ![PyGame](https://monosnap.com/file/4RzEdOzVhik4jj15jAg8uDQgYgwZ6B.png)
+
+
+## Installation
+
+The package can be installed through pip using the usual means:
+```
+pip install pykinect2
+````
+If you are using a virtual environment, be sure to activate it first.
+
+For more information, please see https://pip.pypa.io/en/latest/user_guide.html#installing-packages
+
+
+## Installation (Manual)
+
+To install the package manually, clone this repository to a local folder and include it in the appropriate python environment. If installing in a virtual environment, be sure to install all required dependencies (above).
+
+For example:
+```
+cd c:\projects\myproject\env\
+/Scripts/activate.bat
+
+easy_install -a c:\projects\downloads\PyKinect2
+```
+After installation is complete, you can launch the interactive python shell and `import pykinect2` to ensure everything has been installed properly.
+
+Core helper classes for working with the Kinect sensor are located in PyKinectRuntime.py. For usage examples, please see /examples/PyKinectBodyGame.py.
