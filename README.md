@@ -11,8 +11,10 @@ In this project we want to build a model to recognize 5 human actions infront of
 ----
 
 Follow these steps to read folders and run the codes:<br>
-➙ First open the data folder and follow the instructions explained on its readme file <br>
-➙ Open create_model folder and follow the instructions to train and test model on data processed before<br>
+
+➙ First open the data folder and follow the instructions explained on its readme file. <br>
+➙ Open create_model folder and follow the instructions to train and test model on data processed before.<br>
+➙ Download and install the pykinect2 library in pykinect2 folder. <br>
 ➙ Finally you can open test_on_kinect folder to test your saved model on real data. 😊<br>
 
 
