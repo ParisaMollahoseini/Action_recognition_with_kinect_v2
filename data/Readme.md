@@ -6,7 +6,7 @@ This dataset can be found in https://data.mendeley.com/datasets/k28dtm7tr6/1
  </br> </br>
 This dataset includes 18 actions which are present in 3 formats. RGB video (mp4), skeleton data (txt), depth map (txt)
  </br> </br>
-In this project we have used 5 actions with skeleton data.
+In this project we have used 5 actions with skeleton data.( bend, walk, sit down, stand up, clap hand)
  </br> </br>
 List of actions are indicated bellow:
  </br> </br>
