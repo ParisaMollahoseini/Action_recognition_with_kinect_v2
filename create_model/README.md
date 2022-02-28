@@ -22,7 +22,7 @@ Applying ResNet model is one the transfer learning methods which the model’s w
 ➙ Run the cells up to train cell.<br>
 ➙ Change the hardware accelerator to GPU from Notebook settings in edit menu.<br>
 ➙ Run the rest of cells and see the results. 😊<br>
-➙ Download the model from directory which it is saved. ( we need this model for testing on kinect device)
+➙ Download the model from directory on which it is saved. ( we need this model for testing on kinect device)
 </p>
 <p class="has-line-data" data-line-start="32" data-line-end="33">This model is inspired from the paper named “Learning and recognizing human action from skeleton movement with deep residual neural networks”.</p>
 <h3 class="code-line" data-line-start=34 data-line-end=35 ><a id="_Paper_which_is_used_in_this_project_34"></a>📝 Paper which is used in this project</h3>
